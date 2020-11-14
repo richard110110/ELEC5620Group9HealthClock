@@ -84,12 +84,12 @@ const Create = ({ token }) => {
                     <input
                         type="radio"
                         onClick={handleMediumClick}
-                        checked={medium === 'video'}
-                        value="video"
+                        checked={medium === 'rehabilitation'}
+                        value="rehabilitation"
                         className="from-check-input"
                         name="medium"
                     />{' '}
-                    Video
+                    rehabilitation
                 </label>
             </div>
 
@@ -98,12 +98,12 @@ const Create = ({ token }) => {
                     <input
                         type="radio"
                         onClick={handleMediumClick}
-                        checked={medium === 'book'}
-                        value="book"
+                        checked={medium === 'regular check'}
+                        value="regular check"
                         className="from-check-input"
                         name="medium"
                     />{' '}
-                    Book
+                    regular check
                 </label>
             </div>
         </React.Fragment>
