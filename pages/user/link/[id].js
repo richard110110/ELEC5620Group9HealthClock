@@ -62,7 +62,7 @@ const Update = ({ oldLink, token }) => {
                     }
                 }
             );
-            setState({ ...state, success: 'Link is updated' });
+            setState({ ...state, success: 'announcement is updated' });
         } catch (error) {
             console.log('LINK SUBMIT ERROR', error);
             setState({ ...state, error: error.response.data.error });
