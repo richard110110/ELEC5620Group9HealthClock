@@ -106,8 +106,8 @@ const Links = ({ query, category, links, totalLinks, linksLimit, linkSkip }) => 
                 <div className="row">
                     <div className="col-md-8">{listOfLinks()}</div>
                     <div className="col-md-4">
-                        <h2 className="lead">Most popular in {category.name}</h2>
-                        <p>show popular links</p>
+                        <h2 className="lead"> {category.name}</h2>
+                        <p></p>
                     </div>
                 </div>
             </InfiniteScroll>
