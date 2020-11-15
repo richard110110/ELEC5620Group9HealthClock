@@ -83,7 +83,7 @@ const User = ({ user, userLinks, token }) => {
                     <ul className="nav flex-column">
                         <li className="nav-item">
                             <Link href="/user/link/create">
-                                <a className="nav link">Submit a link</a>
+                                <a className="nav link">Post an announcement</a>
                             </Link>
                         </li>
                         <li className="nav-item">
