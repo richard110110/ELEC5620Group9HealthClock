@@ -21,7 +21,7 @@ const Admin = ({ user }) => (
                     </li>
                     <li className="nav-item">
                         <Link href="/admin/link/read">
-                            <a className="nav-link">All Links</a>
+                            <a className="nav-link">All Announcement</a>
                         </Link>
                     </li>
                     <li className="nav-item">

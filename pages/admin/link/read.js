@@ -103,7 +103,7 @@ const Links = ({ token, links, totalLinks, linksLimit, linkSkip }) => {
         <Layout>
             <div className="row">
                 <div className="col-md-12">
-                    <h1 className="display-4 font-weight-bold">All Links</h1>
+                    <h1 className="display-4 font-weight-bold">All announcement</h1>
                 </div>
             </div>
             <br />
