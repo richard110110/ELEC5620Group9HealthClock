@@ -95,7 +95,7 @@ const User = ({ user, userLinks, token }) => {
                 </div>
 
                 <div className="col-md-8">
-                    <h2>Your links</h2>
+                    <h2>Your Announcement</h2>
                     <br />
                     {listOfLinks()}
                 </div>
