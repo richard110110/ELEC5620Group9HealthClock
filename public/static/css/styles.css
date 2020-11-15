@@ -6,3 +6,7 @@
 .nav a:hover {
     border-radius: 0px;
 }
+
+ul {
+    font-size: 16px;
+}
