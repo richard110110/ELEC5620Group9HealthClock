@@ -35,7 +35,7 @@ const Create = ({ token }) => {
         setState({ ...state, title: e.target.value, error: '', success: '' });
     };
 
-    const handleURLChange = e => {
+    const handleContentChange = e => {
         setState({ ...state, url: e.target.value, error: '', success: '' });
     };
 
@@ -56,7 +56,7 @@ const Create = ({ token }) => {
                 ...state,
                 title: '',
                 url: '',
-                success: 'Link is created',
+                success: 'annoucement is created',
                 error: '',
                 loadedCategories: [],
                 categories: [],
@@ -176,8 +176,8 @@ const Create = ({ token }) => {
                 <input type="text" className="form-control" onChange={handleTitleChange} value={title} />
             </div>
             <div className="form-group">
-                <label className="text-muted">URL</label>
-                <input type="text" className="form-control" onChange={handleURLChange} value={url} />
+                <label className="text-muted">Content</label>
+                <input type="text" className="form-control" onChange={handleContentChange} value={url} />
             </div>
             <div>
                 <button disabled={!token} className="btn btn-outline-warning" type="submit">
@@ -191,7 +191,7 @@ const Create = ({ token }) => {
         <Layout>
             <div className="row">
                 <div className="col-md-12">
-                    <h1>Submit Link/URL</h1>
+                    <h1>Post An annoucement</h1>
                     <br />
                 </div>
             </div>

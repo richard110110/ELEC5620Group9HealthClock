@@ -33,7 +33,7 @@ const Layout = ({ children }) => {
             <li className="nav-item">
                 <Link href="/user/link/create">
                     <a className="nav-link text-dark btn btn-success" style={{ borderRadius: '0px' }}>
-                        Submit a link
+                        Post An annoucement
                     </a>
                 </Link>
             </li>
