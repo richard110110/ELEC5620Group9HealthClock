@@ -196,7 +196,7 @@ const Update = ({ oldLink, token }) => {
         <Layout>
             <div className="row">
                 <div className="col-md-12">
-                    <h1>Update Link/URL</h1>
+                    <h1>Update Announcement</h1>
                     <br />
                 </div>
             </div>
